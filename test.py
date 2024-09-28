@@ -8,7 +8,7 @@ import random
 import string
 
 # Load the DLL
-dll = ctypes.CDLL(r'C:\Users\Lejma\Downloads\HID QA HomeworkV2\bin\windows\hash.dll')
+dll = ctypes.CDLL(r'.\bin\windows\hash.dll')
 
 # Define argument and return types for each function
 dll.HashInit.restype = c_uint32
